@@ -8,7 +8,7 @@ export const profile = {
   location: 'Namakkal, Tamil Nadu',
   linkedin: 'https://www.linkedin.com/in/sornalatha-sanmugam-a6479a330/',
   github: 'https://github.com/Sornalatha-2002',
-  resume: '/resume/Sornalatha_S_Resume.pdf',
+  resume: `${import.meta.env.BASE_URL}resume/Sornalatha_S_Resume.pdf`,
   primaryStack: ['Laravel', 'PHP', 'React.js', 'MySQL', 'REST APIs'],
   headline: 'Building reliable software for real-world business workflows.',
   summary:
